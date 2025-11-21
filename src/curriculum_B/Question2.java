@@ -13,6 +13,8 @@ public class Question2 {
 		System.out.println("合格です！");
 	}
 	
+	System.out.println(); // 改行
+	
 	// Q2
 	// age変数を宣言し、25を代入
 	int age = 25;
@@ -23,6 +25,8 @@ public class Question2 {
 	else {
 		System.out.println("対象外です");
 	}
+	
+	System.out.println(); // 改行
 	
 	// Q3
 	// age変数に18を代入
@@ -38,6 +42,8 @@ public class Question2 {
 		System.out.println("子供です");
 	}
 	
+	System.out.println(); // 改行
+	
 	// Q4
 	// 変数 x, y, z にそれぞれ 30, 15, 50 を代入する
 	int x,y,z;
@@ -47,6 +53,8 @@ public class Question2 {
 	
 	// 3つの数値を比較し、一番大きい数値を表示する
 	System.out.println(Math.max(x, Math.max(y, z)));
+	
+	System.out.println(); // 改行
 	
 	// Q5
 	// Scannerクラスのインスタンスを生成
@@ -76,6 +84,8 @@ public class Question2 {
 		scanner.nextLine(); 
 	}
 	
+	System.out.println(); // 改行
+	
 	// Q6
 	try {
 		System.out.print("（偶数・奇数判定）数値を入力してください: ");
@@ -96,6 +106,8 @@ public class Question2 {
 	} finally {
 		scanner.nextLine(); // バッファクリア
 	}
+	
+	System.out.println(); // 改行
 	
 	// Q7
 	try {
@@ -125,6 +137,8 @@ public class Question2 {
 		scanner.nextLine(); // バッファクリア
 	}
 	
+	System.out.println(); // 改行
+	
 	// Q8
 	// 入力値を判定し、入力がnullまたは空文字列の場合にメッセージを表示する
 	try {
@@ -136,6 +150,8 @@ public class Question2 {
 	} catch (Exception e) {
 		System.out.println("エラー発生");
 	} 
+	
+	System.out.println(); // 改行
 	
 	// Q9
 	try {
@@ -161,6 +177,8 @@ public class Question2 {
 	} finally {
 		scanner.nextLine(); // バッファクリア
 	}
+	
+	System.out.println(); // 改行
 	
 	// Q10
 	try {
