@@ -10,8 +10,8 @@ public class Question1 {
 		long longNum = 0L; // long型変数の宣言し初期値を設定
 		float floatNum = 0.0f; // float型変数の宣言し初期値を設定
 		double doubleNum = 0.0; // double型変数の宣言し初期値を設定
-		char letter = ' '; // char型変数の宣言し初期値を設定
-		String letters = ""; // String型変数の宣言し初期値を設定
+		char letter = '\u0000'; // char型変数の宣言し初期値を設定
+		String letters = null; // String型変数の宣言し初期値を設定
 		boolean isBoolean = false; // boolean型変数の宣言し初期値を設定
 		
 		// Q2
@@ -27,7 +27,7 @@ public class Question1 {
 		
 		// Q3		
 		System.out.println(longNum + byteNum + intNum + shortNum); // 各変数を使った計算と出力
-		System.out.println(byteNum + byteNum); // 各変数を使った計算と出力
+		System.out.println((int)(floatNum + doubleNum)); // 各変数を使った計算と出力
 		System.out.println(letter + " " + letters + " " + isBoolean); // 各変数を使った計算と出力
 		System.out.println((int)(byteNum + shortNum + intNum + longNum + floatNum + doubleNum)); // 各変数を使った計算と出力
 		System.out.println(byteNum * shortNum * intNum * longNum); // 各変数を使った計算と出力
