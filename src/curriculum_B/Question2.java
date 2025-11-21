@@ -19,7 +19,7 @@ public class Question2 {
 	// Q3
 	// age変数に18を代入
 	age = 18;
-	// age が 20 以上なら "成人です"、18 以上なら "ティーンエイジャーです"、それ以外なら "子供です" と表示する
+	// age が 20 以上なら "成人です"、13 ~ 19なら "ティーンエイジャーです"、12 以下なら "子供です" と表示する
 	if (age >= 20) System.out.println("成人です");
 	else if (age >= 13 && age <= 19) System.out.println("ティーンエイジャーです");
 	else if (age <= 12) System.out.println("子供です");
