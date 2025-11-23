@@ -1,0 +1,6 @@
+勝者： daemon
+勝者： daemon
+勝者： daemon
+勝者： player
+勝者： daemon
+勝者： player
