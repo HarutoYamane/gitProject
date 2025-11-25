@@ -62,7 +62,7 @@ final class ContractEmployee extends Employee implements Payable {
 	}
 }
 
-class Main {
+class SalaryReporter  {
 	public static void main(String[] args) {
 		// 社員リストを作成
 		List<Payable> employees = new ArrayList<>();
