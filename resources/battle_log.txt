@@ -7,3 +7,4 @@
 勝者： PLAYER
 勝者： PLAYER
 勝者： PLAYER
+勝者： DAEMON
