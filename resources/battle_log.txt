@@ -1,8 +1,9 @@
-勝者： daemon
-勝者： daemon
-勝者： daemon
-勝者： player
-勝者： daemon
-勝者： player
-勝者： player
-勝者： daemon
+勝者： DAEMON
+勝者： DAEMON
+勝者： DAEMON
+勝者： DAEMON
+勝者： DAEMON
+勝者： DAEMON
+勝者： PLAYER
+勝者： PLAYER
+勝者： PLAYER
