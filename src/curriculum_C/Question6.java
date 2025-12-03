@@ -13,6 +13,8 @@ public class Question6 {
 		Zyanken zyanken = new Zyanken();
 		// ジャンケンゲームを開始
 		zyanken.playGame(scanner, player, cpu);
+		// Scannerを閉じる
+		scanner.close();
 	}
 }
 
