@@ -9,11 +9,4 @@ public class Employee {
 	}
 }
 
-class Main {
-	public static void main(String[] args) {
-		Employee emp = new Employee();
-		emp.emoployeeId = "E001";
-		emp.name = "佐藤太郎";
-		emp.showInfo();
-	}
-}
+
