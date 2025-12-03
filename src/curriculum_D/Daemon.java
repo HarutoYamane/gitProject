@@ -31,7 +31,7 @@ final class Daemon extends Character {
 		}
 	}
 	
-	// キャラクターが攻撃するメソッドの実装
+	// デーモンが攻撃するメソッドの実装
 	@Override
 	public boolean attackTurn(Character player) {
 		// PlayerのHPをDaemonのAT分減少させる
