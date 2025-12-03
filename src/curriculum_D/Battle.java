@@ -18,7 +18,6 @@ class Battle {
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter("resources/battle_log.txt", true))) {
 		    bw.write("勝者： " + this.winner); // 勝者を書き込む
 		    bw.newLine(); // 改行
-		    this.winner = null; // winnerフィールドを初期化
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
